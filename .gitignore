@@ -1,0 +1,8 @@
+**/target/*
+**/.idea/*
+**/tmp/*
+.idea/*
+**/.ipynb_checkpoints/*
+*pyc
+data/processed/*
+**/experiments/*
