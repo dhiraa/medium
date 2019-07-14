@@ -1,0 +1,54 @@
+#:kivy 1.0.9
+# ref: https://kivy.org/docs/tutorials/pong.html
+
+<Car>:
+    size: 20, 10
+    canvas:
+        Rectangle:
+            pos: self.center_x, root.top
+            size: self.size
+
+<Sensor1>:
+    size: 10,10
+    canvas:
+        Color:
+            rgba: 1,0,0,1
+        Ellipse:
+            pos: self.center_x+25, root.top+10
+            size: self.size
+<Sensor2>:
+    size: 10,10
+    canvas:
+        Color:
+            rgba: 0,1,1,1
+        Ellipse:
+            pos: self.center_x+30, root.top
+            size: self.size
+
+<Sensor3>:
+    size: 10,10
+    canvas:
+        Color:
+            rgba: 1,1,0,1
+        Ellipse:
+            pos: self.center_x+25, root.top-10
+            size: self.size
+
+<SelfDriveEnv>:
+    car: id_car
+    sensor1: id_sensor1
+    sensor2: id_sensor2
+    sensor3: id_sensor3
+
+    Car:
+        id: id_car
+        center: self.parent.center
+    Sensor1:
+        id: id_sensor1
+        center: self.parent.center
+    Sensor2:
+        id: id_sensor2
+        center: self.parent.center
+    Sensor3:
+        id: id_sensor3
+        center: self.parent.center
