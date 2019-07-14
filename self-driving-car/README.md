@@ -1,5 +1,7 @@
 # Self Driving Car with Deep Learning
 
+# TODO : add more documentation and Maths notes!
+
 ### Must read tutorials
 - https://kivy.org/docs/tutorials/pong.html
 - https://kivy.org/docs/tutorials/firstwidget.html

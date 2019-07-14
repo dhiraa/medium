@@ -17,7 +17,7 @@ from kivy.vector import Vector
 from kivy.clock import Clock
 from kivy.core.window import Window
 
-from tf_ai import DeepQLearningNetwork
+from torch_ai import DeepQLearningNetwork
 class SelfDriveEnvData():
     """
     A utility class that encapsulates the car environment related variables that
@@ -357,8 +357,6 @@ class SelfDriveApp(App):
         plt.plot(self.env_data.scores)
         plt.show()
         plt.pause(0.001)
-
-
 
 
 if __name__ == '__main__':
