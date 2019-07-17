@@ -72,4 +72,5 @@ Use above snippet to see whether your current Tensorflow installation has suppor
     - https://towardsdatascience.com/implementing-a-resnet-model-from-scratch-971be7193718
     - https://towardsdatascience.com/understanding-and-coding-a-resnet-in-keras-446d7ff84d33
     - http://teleported.in/posts/decoding-resnet-architecture/
+    - https://towardsdatascience.com/a-deeper-dive-into-residual-learning-d92e0aaa8b32
     
