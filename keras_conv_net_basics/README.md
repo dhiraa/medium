@@ -1,4 +1,7 @@
-# Tensorflow Keras API
+# [Tensorflow Keras API](https://medium.com/@mageswaran1989/text-ublished information-extraction-2b4a976409ed)
+
+Also the Story published @ https://blog.imaginea.com/text-information-extraction-2/
+
 ### The CALTECH-101 (subset) dataset
 
 The CALTECH-101 dataset is a dataset of 101 object categories with 40 to 800 images per class.
