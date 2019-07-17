@@ -47,6 +47,12 @@ python resnet_train.py --dataset=101_ObjectCategories --plot=resnet_results.png 
 
 ```
 
+### Stridnet Results
+![](stridnet_results.png)
+
+### Resnet Results
+![](resnet_results.png)
+
 **Tips**
 ```python
 from tensorflow.python.client import device_lib
