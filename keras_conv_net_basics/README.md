@@ -1,4 +1,6 @@
-# [Tensorflow Keras API](https://medium.com/@mageswaran1989/text-ublished information-extraction-2b4a976409ed)
+# Tensorflow Keras API
+
+[Medium Post](https://medium.com/@mageswaran1989/text-ublished information-extraction-2b4a976409ed)
 
 Also the Story published @ https://blog.imaginea.com/text-information-extraction-2/
 
